@@ -1,0 +1,64 @@
+.box-description{
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.main-description {
+    color: #fff;
+    width: 580px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left; 
+    padding-left: 15px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.main-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.box-identity {
+    border: 1px solid #868686;
+    width: 400px;
+    height: 130px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    margin-top: 70px;
+    gap: 5px;
+}
+
+.box-data {
+    color: white;
+
+
+}
+.banner {
+    font-family: "Playfair Display", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 250px;
+    height: 700px;
+}

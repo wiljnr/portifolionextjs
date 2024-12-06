@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #050505;
+    padding: 10px 20px;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoText {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'League Spartan', sans-serif;
+    color: #333;
+}
+
+.btnDownloadCV {
+    border: 2px solid #1B4A64;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    text-decoration: none; 
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.btnDownloadCV:hover {
+    color: white;
+    background-color: #1B4A64
+}
+
+.btnSobre:hover {
+    color: #1B4A64;
+    transform: scale(1.1);
+}
+
+.btnSobre {
+    transition: transform 0.3s ease;
+}
+
+.user {
+    color: #246182;
+}
